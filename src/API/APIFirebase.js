@@ -12,12 +12,11 @@ const firebaseConfig = {
   storageBucket: "favaloroia.appspot.com",
   messagingSenderId: "1099204472949",
   appId: "1:1099204472949:web:00ed3f3582fac56f7bc83c",
-  measurementId: "G-PTKZFPN6Y7"
+  measurementId: "G-PTKZFPN6Y7",
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-
-export default db
+export default db;
