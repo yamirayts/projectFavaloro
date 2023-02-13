@@ -7,6 +7,7 @@ import SCApp from "./SCACESTApp/SCApp";
 import SCANew from "./SCACESTApp/SCANew";
 import ObsHTApp from "./ObsHTApp/ObsHTApp";
 import ObsHTANew from "./ObsHTApp/ObsHTANew";
+import About from "./Components/About";
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
           <Route path="/proyecto/SCANuevoRegistro" element={<SCANew />} />
 
           <Route path="/proyecto/ObsHTA" element={<ObsHTApp />} />
+
+          <Route path="/objetivo" element={<About />} />
 
           <Route
             path="/proyecto/ObsHTA/NuevoRegistro"

@@ -23,22 +23,22 @@ const Nav = () => {
         <nav id="navbar" className="navbar nav-menu">
           <ul>
             <li>
-              <Link to="/projectFavaloro" className="nav-link scrollto active">
-                <i className="bx bx-home"></i> <span>Home</span>
+              <Link to="/projectFavaloro" className="nav-link scrollto active" onClick={bodyClass}>
+                <i className="bx bx-home" ></i> <span>Home</span>
               </Link>
             </li>
             <li>
-              <Link to="/objetivo" className="nav-link scrollto">
+              <Link to="/objetivo" className="nav-link scrollto" onClick={bodyClass}>
                 <i className="bx bx-file-blank"></i> <span>Objetivo</span>
               </Link>
             </li>
             <li>
-              <Link to="/proyecto" className="nav-link scrollto">
+              <Link to="/proyecto" className="nav-link scrollto" onClick={bodyClass}>
                 <i className="bx bx-server"></i> <span>Proyectos</span>
               </Link>
             </li>
             <li>
-              <Link to="/proyecto" className="nav-link scrollto">
+              <Link to="/proyecto" className="nav-link scrollto" onClick={bodyClass}>
                 <i className="bx bx-envelope"></i> <span>Contacto</span>
               </Link>
             </li>
