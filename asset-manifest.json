@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/projectFavaloro/index.html/static/css/main.7134a06c.css",
-    "main.js": "/projectFavaloro/index.html/static/js/main.a2bd1800.js",
-    "static/js/787.5c45cfb2.chunk.js": "/projectFavaloro/index.html/static/js/787.5c45cfb2.chunk.js",
-    "static/media/HospFava.jpg": "/projectFavaloro/index.html/static/media/HospFava.24a0947dd1e4f0c4f865.jpg",
-    "index.html": "/projectFavaloro/index.html/index.html",
-    "main.7134a06c.css.map": "/projectFavaloro/index.html/static/css/main.7134a06c.css.map",
-    "main.a2bd1800.js.map": "/projectFavaloro/index.html/static/js/main.a2bd1800.js.map",
-    "787.5c45cfb2.chunk.js.map": "/projectFavaloro/index.html/static/js/787.5c45cfb2.chunk.js.map"
+    "main.css": "/projectFavaloro/static/css/main.76a53a03.css",
+    "main.js": "/projectFavaloro/static/js/main.878f2832.js",
+    "static/js/787.5c45cfb2.chunk.js": "/projectFavaloro/static/js/787.5c45cfb2.chunk.js",
+    "static/media/HospFava.jpg": "/projectFavaloro/static/media/HospFava.24a0947dd1e4f0c4f865.jpg",
+    "index.html": "/projectFavaloro/index.html",
+    "main.76a53a03.css.map": "/projectFavaloro/static/css/main.76a53a03.css.map",
+    "main.878f2832.js.map": "/projectFavaloro/static/js/main.878f2832.js.map",
+    "787.5c45cfb2.chunk.js.map": "/projectFavaloro/static/js/787.5c45cfb2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7134a06c.css",
-    "static/js/main.a2bd1800.js"
+    "static/css/main.76a53a03.css",
+    "static/js/main.878f2832.js"
   ]
 }
