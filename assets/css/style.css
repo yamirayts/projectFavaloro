@@ -1140,11 +1140,9 @@ section {
 input {
   border: 2px solid currentcolor;
 }
-input:invalid {
-  border: 2px dashed red;
-}
+
 input:invalid:focus {
-  background-image: linear-gradient(rgb(242, 178, 174), rgb(238, 186, 184));
+  border: 2px dashed red;
 }
 
 .contact .php-email-form textarea {
