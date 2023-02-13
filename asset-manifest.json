@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/projectFavaloro/static/css/main.76a53a03.css",
-    "main.js": "/projectFavaloro/static/js/main.5da23ab6.js",
+    "main.js": "/projectFavaloro/static/js/main.783dcee1.js",
     "static/js/787.5c45cfb2.chunk.js": "/projectFavaloro/static/js/787.5c45cfb2.chunk.js",
     "static/media/HospFava.jpg": "/projectFavaloro/static/media/HospFava.24a0947dd1e4f0c4f865.jpg",
     "index.html": "/projectFavaloro/index.html",
     "main.76a53a03.css.map": "/projectFavaloro/static/css/main.76a53a03.css.map",
-    "main.5da23ab6.js.map": "/projectFavaloro/static/js/main.5da23ab6.js.map",
+    "main.783dcee1.js.map": "/projectFavaloro/static/js/main.783dcee1.js.map",
     "787.5c45cfb2.chunk.js.map": "/projectFavaloro/static/js/787.5c45cfb2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.76a53a03.css",
-    "static/js/main.5da23ab6.js"
+    "static/js/main.783dcee1.js"
   ]
 }
