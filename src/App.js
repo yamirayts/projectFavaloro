@@ -1,24 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+
+import "./style.css"
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import Nav from "./Components/Nav"
+import Home from "./Components/Home"
+import AppListContainer from "./Components/AppListContainer"
+import SCApp from "./SCACESTApp/SCApp"
+import SCANew from './SCACESTApp/SCANew';
+import ObsHTApp from "./ObsHTApp/ObsHTApp"
+import ObsHTANew from "./ObsHTApp/ObsHTANew"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Router>
+    <Nav/>
+    <Routes>
+                 
+           <Route exact path='/' 
+                element={<Home/>}/>           
+
+            <Route path='/proyecto' 
+                element={<AppListContainer/>}/> 
+            
+            <Route path='/proyecto/SCACESTA' 
+                element={<SCApp/>}/> 
+                
+            <Route path='/proyecto/SCANuevoRegistro' 
+                element={<SCANew/>}/>     
+                
+            <Route path='/proyecto/ObsHTA' 
+                element={<ObsHTApp/>}/>   
+
+            <Route path='/proyecto/ObsHTA/NuevoRegistro' 
+                element={<ObsHTANew/>}/> 
+    </Routes>
+    </Router>
+    
+    </>
   );
 }
 
