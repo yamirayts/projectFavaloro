@@ -12,10 +12,12 @@ import About from "./Components/About";
 function App() {
   return (
     <>
-      <Router>
+      
         <Nav />
         <Routes>
-          <Route exact path="/projectFavaloro" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
+
+          <Route path="/home" element={<Home />} />
 
           <Route path="/proyecto" element={<AppListContainer />} />
 
@@ -32,7 +34,7 @@ function App() {
             element={<ObsHTANew />}
           />
         </Routes>
-      </Router>
+      
     </>
   );
 }

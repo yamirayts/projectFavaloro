@@ -1,10 +1,12 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import db from "../API/APIFirebase";
 import { collection, addDoc } from "firebase/firestore";
 import "./../style.css";
 
 const SCANew = () => {
   const [buyer, setBuyer] = useState({ Interc: [] });
+  const [controlSubmit, setControlSubmit] = useState(false);
 
   const inputControl = () => {
     let valor = 0;
@@ -43,6 +45,7 @@ const SCANew = () => {
     evt.preventDefault();
     try {
       const docRef = await addDoc(collection(db, "SCA"), buyer);
+      setControlSubmit(true)
       console.log("Document written with ID: ", docRef.id);
     } catch (e) {
       console.error("Error adding document: ", e);
@@ -98,7 +101,15 @@ const SCANew = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            <form onChange={handlerChange} onSubmit={handlerSubmit}>
+            {controlSubmit? 
+          <div>
+            <h3>Gracias por tu tiempo =) </h3>
+            <Link to="/proyecto">
+            <button type="button" class="btn btn-secondary btn-sm">Volver</button>
+            </Link>
+          </div>  
+          :
+          <form onChange={handlerChange} onSubmit={handlerSubmit}>
               <div className="fromSCA">
                 <div class="row">
                   <div class="col-md-3">
@@ -396,7 +407,7 @@ const SCANew = () => {
                         name="LabCRP"
                         class="custom-control-input"
                       />
-                      <label class="custom-control-label" for="customRadio1">
+                      <label class="custom-control-label" for="customRadio3">
                         Si
                       </label>
                     </div>
@@ -409,7 +420,7 @@ const SCANew = () => {
                         name="LabCRP"
                         class="custom-control-input"
                       />
-                      <label class="custom-control-label" for="customRadio2">
+                      <label class="custom-control-label" for="customRadio3">
                         No
                       </label>
                     </div>
@@ -523,6 +534,8 @@ const SCANew = () => {
                 </>
               )}
             </form>
+          }
+            
           </div>
         </div>
       </div>

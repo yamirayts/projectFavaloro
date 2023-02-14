@@ -17,7 +17,7 @@ const About = () => {
         <div className="row">
           <div className="col-lg-4">
             <img
-              src="./img/favagroup.jpg"
+              src="/projectFavaloro/img/favagroup.jpg"
               className="img-fluid"
               alt=""
             />
