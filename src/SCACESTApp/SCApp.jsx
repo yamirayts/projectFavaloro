@@ -8,10 +8,12 @@ const SCApp = () => {
         <div class="section-title">
           <h2>SCACEST</h2>
           <p>
-            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
-            aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
-            quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-            fugiat sit in iste officiis commodi quidem hic quas.
+            Con esta App buscamos optimizar nuestra calidad a la hora de tratar
+            a un paciente en el contexto de un SCACEST. Sabemos que en este caso
+            el tiempo es sinónimo de resultados, sinónimo de miocardio salvado,
+            es por eso tan importante que podamos medir nuestros tiempos, para
+            poder optimizar los resultados y mejorar la morbimortalidad de
+            nuestros pacientes.
           </p>
         </div>
 

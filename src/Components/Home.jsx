@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <section id="hero" className="d-flex flex-column justify-content-center">
       <div className="container" data-aos="zoom-in" data-aos-delay="100">
-        <h1>Hosp. Dr Rene Favaloro</h1>
+        <h1>UTI Hosp. Dr Rene Favaloro</h1>
         <p>
           Nosotros somos{" "}
           <span>
