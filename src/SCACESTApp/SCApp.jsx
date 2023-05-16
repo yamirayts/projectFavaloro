@@ -18,7 +18,7 @@ const SCApp = () => {
         </div>
 
         <div class="row">
-          <div class="col-lg-4 col-md-3">
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
             <Link to="/proyecto/SCANuevoRegistro">
               <div class="count-box">
                 <i class="bi bi-bookmark-plus"></i>
@@ -33,7 +33,22 @@ const SCApp = () => {
             </Link>
           </div>
 
-          <div class="col-lg-4 col-md-3 mt-3 mt-md-0">
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <Link to="/proyecto/pendingLoadContainer">
+              <div class="count-box">
+                <i class="bi bi-clipboard-pulse"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="232"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p>Cargas pendientes de completar</p>
+              </div>
+            </Link>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
             <div class="count-box">
               <i class="bi bi-clipboard-data"></i>
               <span
@@ -46,7 +61,7 @@ const SCApp = () => {
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-3 mt-3 mt-lg-0">
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
             <div class="count-box">
               <i class="bi bi-database-check"></i>
               <span

@@ -7,7 +7,9 @@ import SCApp from "./SCACESTApp/SCApp";
 import SCANew from "./SCACESTApp/SCANew";
 import ObsHTApp from "./ObsHTApp/ObsHTApp";
 import ObsHTANew from "./ObsHTApp/ObsHTANew";
+import PatientDetail from "./SCACESTApp/PatientDetail"
 import About from "./Components/About";
+import PendingLoadContainer from "./SCACESTApp/PendingLoadContainer";
 
 function App() {
   return (
@@ -28,6 +30,12 @@ function App() {
           <Route path="/proyecto/ObsHTA" element={<ObsHTApp />} />
 
           <Route path="/objetivo" element={<About />} />
+
+          <Route path="/proyecto/pendingLoadContainer" element={<PendingLoadContainer />} />
+
+          <Route exact path="/proyecto/pendingLoadContainer/patient/:patientId" element={ <PatientDetail/>}/>
+              
+              
 
           <Route
             path="/proyecto/ObsHTA/NuevoRegistro"
