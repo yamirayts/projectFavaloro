@@ -8,6 +8,19 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
+
+  .numberClass {
+    font-family: 'Kalam', cursive;
+
+    text-overflow: clip;
+    font-size: 300px;
+    color: #6d788f;
+    margin-left: 100px;
+    text-shadow: 5px 5px #484d521e;
+    
+  }
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
