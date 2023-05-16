@@ -65,7 +65,7 @@ const PatientDetail = () => {
 
   return (
     <>
-      {controlSubmit ? (
+      {controlSubmit ? (<section id="services" class="services">
         <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2>About</h2>
@@ -76,6 +76,7 @@ const PatientDetail = () => {
             Quia fugiat sit in iste officiis commodi quidem hic quas.
           </p>
         </div>
+        
 
         <div class="row">
           <div class="col-lg-4">
@@ -97,8 +98,9 @@ const PatientDetail = () => {
            
           </div>
           </div>
-        
+          </section>
       ) : (
+        <section id="services" class="services">
         <form
           onChange={handlerChange}
           onSubmit={handlerSubmit}
@@ -214,6 +216,7 @@ const PatientDetail = () => {
             </div>
           </div>
         </form>
+        </section>
       )}
     </>
   );
